@@ -89,4 +89,6 @@ TEST_CASE("Exceptions")
     CHECK_THROWS(compress(range(20, 35), vector<bool>{false, true, false, true}));
     CHECK_THROWS(compress(range(20, 35), range(1, 10)));
     CHECK_THROWS(range(20, 19));
+    CHECK_THROWS(range(20, 19));
+    CHECK_THROWS(range(20, 19));
 }
